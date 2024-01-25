@@ -8,9 +8,55 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+   
+<form>
+		<label>Name*</label>
+	    <input type = "text" id = "name" required>
+	    <br>
+	
+		<label for = "email" >Email*</label>
+	    <input type = "text" id = "email" required>
+		<br>
+	      <label>Gender</label>
+		 <input type="radio" name="gender" value="male">
+    Male
+  </label>
 
+  <label>
+    <input type="radio" name="gender" value="female">
+    Female
+  </label>
+
+  <label>
+    <input type="radio" name="gender" value="other">
+    Other
+  </label>
+		<br>
+	   <label for="laptop">Laptop Brands*</label>
+		<select name="laptop">
+			<option value="Apple">Apple</option>
+			<option value="Asus">Asus</option>
+			<option value="HP">HP</option>
+		</select>
+		<br>
+		<label for = "age" >Age*</label>
+	    <input type = "number" id = "age" required>
+		<br>
+		<label for = "dob" >Date of Birth*</label>
+	    <input type = "date" id = "dob" required>
+		<br>
+		<label for = "password" >Password*</label>
+	    <input type = "password" id = "password" required>
+	<br>
+
+	<label for = "protfolio" >Portfolio Url</label>
+	    <input type = "url" id = "portfolio" required>
+	<br>
+	    <input type = "submit" value = "Submit">
+	
+</form>
+	 <script type="text/javascript" src="./script.js">
+</script>
 </body>
 
 </html>
